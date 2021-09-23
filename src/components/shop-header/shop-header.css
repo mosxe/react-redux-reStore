@@ -1,0 +1,28 @@
+﻿.shop-header {
+  border-bottom: 1px solid black;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.shop-header .logo {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 2.5rem;
+  padding-left: 1rem;
+  text-decoration: none;
+}
+
+.shop-header .shopping-cart {
+  align-self: center;
+  font-size: 1.3rem;
+  text-decoration: none;
+  padding-right: 1rem;
+  color: rgb(33, 37, 41)
+}
+
+.shop-header .shopping-cart .bi-cart {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: cadetblue;
+  margin-right: 10px;
+}
