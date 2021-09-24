@@ -5,6 +5,13 @@
   }
 };
 
+const booksRequested = () => {
+  return {
+    type: 'BOOKS_REQUESTED'
+  }
+};
+
 export {
-  booksLoaded
+  booksLoaded,
+  booksRequested
 }
